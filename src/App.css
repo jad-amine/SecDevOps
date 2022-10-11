@@ -10,7 +10,7 @@
 /* Landing Page */
 .landingPage {
   background-image: url(./assets/2.jpg);
-  height: 528px;
+  height: 538px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,9 +22,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: blue; */
   background-image: linear-gradient(to right, red, blue);
-  height: 120px;
+  height: 110px;
   padding: 0 30px;
 }
 
