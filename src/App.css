@@ -8,22 +8,39 @@
 }
 
 /* Landing Page */
+.landingPage {
+  background-image: url(./assets/2.jpg);
+  height: 528px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
 /* Navbar */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  /* background-color: blue; */
+  background-image: linear-gradient(to right, red, blue);
   height: 120px;
+  padding: 0 30px;
 }
 
 .nav ul {
   display: flex;
-  gap: 20px;
+  gap: 35px;
   list-style: none;
   color: white;
+  font-size: 25px;
+  cursor: pointer;
 }
 
-.nav ul li:last-of-type {
-  margin-right: 30px;
+.nav ul li {
+  transition: color 0.3s ease-in-out;
+}
+
+.nav ul li:hover {
+  color: crimson;
 }
