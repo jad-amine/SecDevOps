@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/SecDevOps/static/css/main.073c9b0a.css",
-    "main.js": "/SecDevOps/static/js/main.db1503f0.js",
+    "main.css": "/SecDevOps/static/css/main.361acdbb.css",
+    "main.js": "/SecDevOps/static/js/main.c14f3995.js",
     "static/js/787.1e16600f.chunk.js": "/SecDevOps/static/js/787.1e16600f.chunk.js",
+    "static/media/2.jpg": "/SecDevOps/static/media/2.bbfc26db0c4faaebb7a6.jpg",
+    "static/media/LogoBlack.png": "/SecDevOps/static/media/LogoBlack.9c05ecd8d412d95c350d.png",
     "index.html": "/SecDevOps/index.html",
-    "main.073c9b0a.css.map": "/SecDevOps/static/css/main.073c9b0a.css.map",
-    "main.db1503f0.js.map": "/SecDevOps/static/js/main.db1503f0.js.map",
+    "main.361acdbb.css.map": "/SecDevOps/static/css/main.361acdbb.css.map",
+    "main.c14f3995.js.map": "/SecDevOps/static/js/main.c14f3995.js.map",
     "787.1e16600f.chunk.js.map": "/SecDevOps/static/js/787.1e16600f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.db1503f0.js"
+    "static/css/main.361acdbb.css",
+    "static/js/main.c14f3995.js"
   ]
 }
