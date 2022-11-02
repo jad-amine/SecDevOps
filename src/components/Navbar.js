@@ -1,23 +1,38 @@
 import React from "react";
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
-const logo = require("../assets/LogoBlack.png");
+import { BsSearch } from "react-icons/bs";
+import { TbWorld } from "react-icons/tb";
+const logo = require("../assets/Logo.png");
 
 export default function Navbar() {
   return (
     <div className="nav">
-      <img src={logo} alt="" />
+      <img src={logo} alt="" style={{ height: "100%" }} />
       <ul>
-        <li>Home</li>
+        <li>Products & Services</li>
+        <li>Solutions</li>
         <li>About Us</li>
-        <li>Contact Us</li>
-        <li>
-          <BsFacebook />
+      </ul>
+      <ul style={{ alignItems: "center", gap: 15 }}>
+        <li
+          className="top-nav-button"
+          style={{ backgroundColor: "#3266CB", color: "white" }}
+        >
+          Get a demo
+        </li>
+        <li
+          className="top-nav-button"
+          style={{
+            backgroundColor: "white",
+            color: "#3266CB",
+          }}
+        >
+          Contact Us
         </li>
         <li>
-          <BsInstagram />
+          <BsSearch size={21} />
         </li>
         <li>
-          <BsLinkedin />
+          <TbWorld size={23} />
         </li>
       </ul>
     </div>
