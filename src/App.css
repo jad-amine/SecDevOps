@@ -7,6 +7,11 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* Fonts */
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* Navbar */
 .nav {
   display: flex;
@@ -20,6 +25,12 @@
   background-color: transparent;
   transition: background-color 1s;
   transition: height 0.7s;
+  font-size: 18px;
+}
+
+.nav ul li {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .background {
@@ -36,13 +47,9 @@
   color: white;
 }
 
-.nav ul li {
-  cursor: pointer;
-}
-
 .top-nav-button {
   border-radius: 8px;
-  padding: 5px 15px;
+  padding: 6px 17px;
 }
 
 /* Landing Page */
@@ -54,9 +61,10 @@
   background-position: center;
   display: flex;
   flex-direction: column;
+  padding-top: 50px;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .button-background {
@@ -65,21 +73,25 @@
   border: 0;
   color: white;
   font-size: 1.2em;
+  height: 50px;
+  width: 170px;
+  border-radius: 6px;
 }
 
 /* Services */
 .services {
   margin-top: 70px;
   display: flex;
-  gap: 20px;
+  gap: 40px;
   padding: 0 2% 0 4%;
 }
 
 .company-info {
-  border: solid red 3px;
+  border: solid rgb(188, 20, 20) 3px;
   flex: 1;
   text-align: center;
   padding: 5% 0 2% 0;
+  color: rgb(84, 84, 84);
 }
 
 .our-services {
