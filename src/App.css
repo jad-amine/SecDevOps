@@ -17,6 +17,16 @@
   padding: 0 30px;
   position: fixed;
   z-index: 1;
+  background-color: transparent;
+  transition: background-color 1s;
+  transition: height 0.7s;
+}
+
+.background {
+  transition: background-color 1s;
+  background-color: black;
+  height: 80px;
+  transition: height 1s;
 }
 
 .nav ul {
@@ -58,12 +68,20 @@
 }
 
 /* Services */
-.services h1 {
+.services {
   margin-top: 70px;
-  text-align: center;
+  display: flex;
+  gap: 20px;
+  padding: 0 2% 0 4%;
 }
 
-.services div {
-  display: flex;
-  gap: 30px;
+.company-info {
+  border: solid red 3px;
+  flex: 1;
+  text-align: center;
+  padding: 5% 0 2% 0;
+}
+
+.our-services {
+  flex: 2;
 }
