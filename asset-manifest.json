@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/SecDevOps/static/css/main.75c21229.css",
-    "main.js": "/SecDevOps/static/js/main.c14f3995.js",
+    "main.css": "/SecDevOps/static/css/main.d3481932.css",
+    "main.js": "/SecDevOps/static/js/main.0c2e6fb6.js",
     "static/js/787.1e16600f.chunk.js": "/SecDevOps/static/js/787.1e16600f.chunk.js",
-    "static/media/2.jpg": "/SecDevOps/static/media/2.bbfc26db0c4faaebb7a6.jpg",
-    "static/media/LogoBlack.png": "/SecDevOps/static/media/LogoBlack.9c05ecd8d412d95c350d.png",
+    "static/media/Landing.svg": "/SecDevOps/static/media/Landing.3a805a8b8f59b1304ee5.svg",
+    "static/media/Logo.png": "/SecDevOps/static/media/Logo.691004f8597fc6f07214.png",
+    "static/media/Breach.svg": "/SecDevOps/static/media/Breach.699235511657dc453cba686d5d2e9e02.svg",
+    "static/media/Penetration.svg": "/SecDevOps/static/media/Penetration.b967a54a6fb5bc294e4ba6e91b279d19.svg",
+    "static/media/WebApp.svg": "/SecDevOps/static/media/WebApp.827158dbe3f2439cd86390f29de89a68.svg",
+    "static/media/PURPLE.svg": "/SecDevOps/static/media/PURPLE.94965fa0c7448036eaa070242c9d22b1.svg",
+    "static/media/RED.svg": "/SecDevOps/static/media/RED.522e3a2dc4be0db0d5d7eb6ce23bfb7b.svg",
+    "static/media/RANSOMWARE.svg": "/SecDevOps/static/media/RANSOMWARE.7cf0865f38a3bfe514f922566079b589.svg",
     "index.html": "/SecDevOps/index.html",
-    "main.75c21229.css.map": "/SecDevOps/static/css/main.75c21229.css.map",
-    "main.c14f3995.js.map": "/SecDevOps/static/js/main.c14f3995.js.map",
+    "main.d3481932.css.map": "/SecDevOps/static/css/main.d3481932.css.map",
+    "main.0c2e6fb6.js.map": "/SecDevOps/static/js/main.0c2e6fb6.js.map",
     "787.1e16600f.chunk.js.map": "/SecDevOps/static/js/787.1e16600f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75c21229.css",
-    "static/js/main.c14f3995.js"
+    "static/css/main.d3481932.css",
+    "static/js/main.0c2e6fb6.js"
   ]
 }
