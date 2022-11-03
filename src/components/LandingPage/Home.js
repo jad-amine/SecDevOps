@@ -5,10 +5,11 @@ export default function Home() {
   return (
     <div className="landingPage">
       <p
+        className="Montserrat"
         style={{
           color: "white",
           textAlign: "center",
-          fontSize: "4em",
+          fontSize: 55,
           lineHeight: "110%",
         }}
       >
@@ -16,19 +17,21 @@ export default function Home() {
         <br /> sensitive data
       </p>
       <p
+        className="Montserrat"
         style={{
           color: "white",
           textAlign: "center",
-          paddingLeft: "30%",
-          paddingRight: "30%",
+          paddingLeft: "27%",
+          paddingRight: "27%",
           marginTop: "40px",
+          fontSize: "1.1em",
         }}
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit mauris id
         risus aliquet a commodo. Eget nam odio sed dictum mattis dit etiam at eu
         arcu, quisque velit in leo purus.
       </p>
-      <button className="top-nav-button button-background">Contact Us</button>
+      <button className="button-background Montserrat">Contact Us</button>
     </div>
   );
 }
