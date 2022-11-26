@@ -1,14 +1,16 @@
 import React from "react";
 import Home from "../components/LandingPage/Home";
 import Services from "../components/LandingPage/Services";
-import Navbar from "../components/Navbar";
+import Steps from "../components/LandingPage/Steps";
+import Testimonial from "../components/LandingPage/Testimonial";
 
 export default function LandingPage() {
   return (
     <div>
-      <Navbar />
       <Home />
       <Services />
+      <Testimonial />
+      <Steps />
     </div>
   );
 }
