@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/SecDevOps/static/css/main.c6feb41f.css",
-    "main.js": "/SecDevOps/static/js/main.e01de906.js",
+    "main.css": "/SecDevOps/static/css/main.c12c4bcf.css",
+    "main.js": "/SecDevOps/static/js/main.22272edd.js",
     "static/js/787.1e16600f.chunk.js": "/SecDevOps/static/js/787.1e16600f.chunk.js",
-    "static/media/Landing.svg": "/SecDevOps/static/media/Landing.3a805a8b8f59b1304ee5.svg",
-    "static/media/Logo.png": "/SecDevOps/static/media/Logo.691004f8597fc6f07214.png",
+    "static/media/ring.svg": "/SecDevOps/static/media/ring.35265b24459f94751f80a9e6fec05bc8.svg",
+    "static/media/logo.png": "/SecDevOps/static/media/logo.691004f8597fc6f07214.png",
     "static/media/Montserrat-Medium.ttf": "/SecDevOps/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/testimonial-img.svg": "/SecDevOps/static/media/testimonial-img.37bad3eee08995b3ba3a05ca69ce667a.svg",
     "static/media/Breach.svg": "/SecDevOps/static/media/Breach.699235511657dc453cba686d5d2e9e02.svg",
     "static/media/Penetration.svg": "/SecDevOps/static/media/Penetration.b967a54a6fb5bc294e4ba6e91b279d19.svg",
     "static/media/WebApp.svg": "/SecDevOps/static/media/WebApp.827158dbe3f2439cd86390f29de89a68.svg",
     "static/media/PURPLE.svg": "/SecDevOps/static/media/PURPLE.94965fa0c7448036eaa070242c9d22b1.svg",
     "static/media/RED.svg": "/SecDevOps/static/media/RED.522e3a2dc4be0db0d5d7eb6ce23bfb7b.svg",
     "static/media/RANSOMWARE.svg": "/SecDevOps/static/media/RANSOMWARE.7cf0865f38a3bfe514f922566079b589.svg",
+    "static/media/joker-face.svg": "/SecDevOps/static/media/joker-face.cdcdaca629acd30e5c9bede5a333d9fd.svg",
+    "static/media/Phone.svg": "/SecDevOps/static/media/Phone.1e93024b948a3cafd384132317e90bb4.svg",
+    "static/media/User.svg": "/SecDevOps/static/media/User.8e2247b16759355bd9a20b0e6f0001ef.svg",
     "index.html": "/SecDevOps/index.html",
-    "main.c6feb41f.css.map": "/SecDevOps/static/css/main.c6feb41f.css.map",
-    "main.e01de906.js.map": "/SecDevOps/static/js/main.e01de906.js.map",
+    "main.c12c4bcf.css.map": "/SecDevOps/static/css/main.c12c4bcf.css.map",
+    "main.22272edd.js.map": "/SecDevOps/static/js/main.22272edd.js.map",
     "787.1e16600f.chunk.js.map": "/SecDevOps/static/js/787.1e16600f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6feb41f.css",
-    "static/js/main.e01de906.js"
+    "static/css/main.c12c4bcf.css",
+    "static/js/main.22272edd.js"
   ]
 }
