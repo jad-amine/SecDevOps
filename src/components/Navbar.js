@@ -1,9 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import { BsSearch } from "react-icons/bs";
-import { TbWorld } from "react-icons/tb";
-const logo = require("../assets/Logo.png");
+import Face from "../assets/navbar/joker-face.svg";
+import User from "../assets/navbar/User.svg";
+import Phone from "../assets/navbar/Phone.svg";
+
+const logo = require("../assets/navbar/logo.png");
 
 export default function Navbar() {
   const [background, setBackground] = useState(false);
@@ -14,41 +16,31 @@ export default function Navbar() {
       window.scrollY >= 100 ? setBackground(true) : setBackground(false);
     };
     window.addEventListener("scroll", changeBackground);
-
-    // return () => {
-    //   window.removeEventListener("scroll", changeBackground);
-    // };
   }, []);
 
   return (
     <div className={background ? "nav background" : "nav"}>
-      <img src={logo} alt="" style={{ height: "100%" }} />
-      <ul style={{ gap: 25 }}>
-        <li>Products & Services</li>
-        <li>Solutions</li>
-        <li>About Us</li>
-      </ul>
-      <ul style={{ alignItems: "center", gap: 15, fontSize: 16 }}>
-        <li
-          className="top-nav-button"
-          style={{ backgroundColor: "#3266CB", color: "white" }}
-        >
-          Get a Demo
-        </li>
-        <li
-          className="top-nav-button"
-          style={{
-            backgroundColor: "white",
-            color: "#3266CB",
-          }}
-        >
-          Contact us
+      {/* === Logo & Title */}
+      <div className="logo-div">
+        <img src={logo} alt="logo" style={{ height: "80%" }} />
+        <p className="logo-title">
+          <span style={{ color: "#F42240" }}> FIGHT</span> 4 SECURITY
+        </p>
+      </div>
+
+      {/* === Top right pages */}
+      <ul className="nav-ul">
+        <li>
+          <img src={Face} alt="logo" className="nav-img" />
+          Services
         </li>
         <li>
-          <BsSearch size={21} />
+          <img src={User} alt="logo" className="nav-img" />
+          About Us
         </li>
         <li>
-          <TbWorld size={23} />
+          <img src={Phone} alt="logo" className="nav-img" />
+          Contact Us
         </li>
       </ul>
     </div>

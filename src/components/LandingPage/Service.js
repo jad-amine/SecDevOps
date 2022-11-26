@@ -8,8 +8,16 @@ export default function Service(props) {
       >
         <img src={props.icon1} height={70} alt="icons" />
         <div>
-          <h4 style={{ width: "100%" }}>{props.title1}</h4>
-          <p>{props.description1}</p>
+          <h4
+            style={{
+              width: "100%",
+              color: "rgb(170,170,170)",
+              paddingBottom: 10,
+            }}
+          >
+            {props.title1}
+          </h4>
+          <p style={{ color: "rgba(100,100,100)" }}>{props.description1}</p>
         </div>
       </div>
       <div
@@ -17,8 +25,16 @@ export default function Service(props) {
       >
         <img src={props.icon2} height={70} alt="icons" />
         <div>
-          <h4 style={{ width: "100%" }}>{props.title2}</h4>
-          <p>{props.description2}</p>
+          <h4
+            style={{
+              width: "100%",
+              color: "rgb(170,170,170)",
+              paddingBottom: 10,
+            }}
+          >
+            {props.title2}
+          </h4>
+          <p style={{ color: "rgba(100,100,100)" }}>{props.description2}</p>
         </div>
       </div>
     </div>

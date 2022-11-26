@@ -1,37 +1,52 @@
 import React from "react";
-// const logo = require("../assets/LandingPage/ButtonBackground.png");
+import Ring from "../../assets/LandingPage/ring.svg";
+// import useWindowDimensions from "../../utils/helper";
 
 export default function Home() {
+  // const dimensions = useWindowDimensions();
+
   return (
     <div className="landingPage">
-      <p
-        className="Montserrat"
+      <div
         style={{
-          color: "white",
-          textAlign: "center",
-          fontSize: 55,
-          lineHeight: "110%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          flex: 1,
+          paddingLeft: 20,
+          paddingRight: 20,
         }}
       >
-        We protect the World’s most
-        <br /> sensitive data
-      </p>
-      <p
-        className="Montserrat"
-        style={{
-          color: "white",
-          textAlign: "center",
-          paddingLeft: "27%",
-          paddingRight: "27%",
-          marginTop: "40px",
-          fontSize: "1.1em",
-        }}
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit mauris id
-        risus aliquet a commodo. Eget nam odio sed dictum mattis dit etiam at eu
-        arcu, quisque velit in leo purus.
-      </p>
-      <button className="button-background Montserrat">Contact Us</button>
+        <strong
+          style={{ color: "white", fontSize: "2.5em", textAlign: "center" }}
+        >
+          We work to close your <p> security gaps</p>
+        </strong>
+        <button
+          style={{
+            background: "#F42240",
+            paddingTop: 15,
+            paddingBottom: 15,
+            paddingLeft: 40,
+            paddingRight: 40,
+            borderRadius: 30,
+            color: "white",
+            marginTop: "8%",
+            fontSize: "1.5em",
+            borderWidth: 0,
+            fontWeight: "bold",
+            // letterSpacing: 1,
+            cursor: "pointer",
+          }}
+          className="contact-us"
+        >
+          Contact Us
+        </button>
+      </div>
+      <div style={{ flex: 1 }}>
+        <img src={Ring} alt="ring" style={{ width: "100%", height: "100%" }} />
+      </div>
     </div>
   );
 }
