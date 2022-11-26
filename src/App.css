@@ -3,12 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
 }
 
 /* Fonts */
 .Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* App  */
+.App {
+  background-image: linear-gradient(to bottom right, rgb(91, 91, 91), black);
+  /* background-color: black; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -17,65 +24,64 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 130px;
+  height: 25%;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 3%;
   position: fixed;
   z-index: 1;
   background-color: transparent;
-  transition: background-color 1s;
-  transition: height 0.7s;
-  font-size: 18px;
+  transition: background-color 0.7s, height 0.7s, font-size 0.7s;
+  font-size: 2em;
+}
+
+.background {
+  transition: height 0.7s, background-color 0.7s, font-size 0.7s;
+  background-color: rgb(35, 35, 35);
+  height: 13%;
+  font-size: 1.2em;
+}
+
+.logo-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-title {
+  color: white;
+  font-weight: bold;
+}
+
+.nav ul {
+  font-size: 0.7em;
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  color: white;
 }
 
 .nav ul li {
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
-}
-
-.background {
-  transition: background-color 1s;
-  background-color: black;
-  height: 80px;
-  transition: height 1s;
-}
-
-.nav ul {
   display: flex;
-  gap: 35px;
-  list-style: none;
-  color: white;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.top-nav-button {
-  border-radius: 8px;
-  padding: 6px 17px;
+.nav-img {
+  height: 70%;
 }
 
 /* Landing Page */
 .landingPage {
-  background-image: url(./assets/Landing.svg);
-  height: 700px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   display: flex;
-  flex-direction: column;
-  padding-top: 50px;
+  padding-top: 10%;
   justify-content: center;
   align-items: center;
-  gap: 30px;
 }
-
-.button-background {
-  margin-top: 40px;
-  background-image: url(./assets/LandingPage/ButtonBackground.png);
-  border: 0;
-  color: white;
-  font-size: 1.2em;
-  height: 50px;
-  width: 170px;
-  border-radius: 6px;
+.contact-us {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Services */
@@ -87,13 +93,61 @@
 }
 
 .company-info {
-  border: solid rgb(188, 20, 20) 3px;
+  border: solid #f42240 3px;
   flex: 1;
   text-align: center;
   padding: 5% 0 2% 0;
   color: rgb(84, 84, 84);
+  max-width: 450px;
 }
 
 .our-services {
   flex: 2;
+}
+
+/* Testimonial */
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0 5% 0;
+}
+
+.testimonial-text {
+  border: 2px solid #3266cb;
+}
+
+/* Steps */
+.steps {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.three-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  width: 100%;
+}
+
+.step {
+  background-color: white;
+  border-radius: 10px;
+  width: 27%;
+  text-align: center;
+  padding: 25px 10px 25px 10px;
+  font-size: 1.5em;
+}
+
+.check-button {
+  background-color: #3266cb;
+  border-radius: 20px;
+  padding: 8px 35px 8px 35px;
+  border: 0;
+  color: white;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
