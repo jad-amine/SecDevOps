@@ -1,6 +1,6 @@
 import React from "react";
 import Service from "./Service";
-import logo from "../../assets/Logo.png";
+import logo from "../../assets/navbar/logo.png";
 import Breach from "../../assets/LandingPage/ServicesIcons/Breach.svg";
 import Penetration from "../../assets/LandingPage/ServicesIcons/Penetration.svg";
 import PURPLE from "../../assets/LandingPage/ServicesIcons/PURPLE.svg";
@@ -19,11 +19,11 @@ export default function Services() {
             marginBottom: 25,
             fontSize: "1.7em",
             lineHeight: 1.7,
-            color: "rgb(84, 84, 84)",
+            color: "rgb(200,200,200)",
           }}
         >
-          <span style={{ color: "rgb(188, 20, 20)" }}>Fight 4 Security</span> is
-          an information security company that prioritizes what matters most to
+          <span style={{ color: "#F42240" }}>Fight 4 Security</span> is an
+          information security company that prioritizes what matters most to
           your organization.
         </p>
         <img src={logo} height={230} alt={"Fight 4 Security"} />
@@ -31,7 +31,7 @@ export default function Services() {
       <div className="our-services">
         <p
           style={{
-            color: "rgb(47, 47, 47)",
+            color: "rgb(200,200,200)",
             fontSize: 40,
             fontWeight: "bold",
             marginBottom: 40,
