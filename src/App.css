@@ -36,7 +36,7 @@
 
 .background {
   transition: height 0.7s, background-color 0.7s, font-size 0.7s;
-  background-color: rgb(35, 35, 35);
+  background-color: rgba(35, 35, 35, 0.9);
   height: 13%;
   font-size: 1.2em;
 }
@@ -75,6 +75,7 @@
 
 /* Landing Page */
 .landingPage {
+  background-image: linear-gradient(to bottom right, rgb(91, 91, 91), black);
   display: flex;
   padding-top: 10%;
   justify-content: center;
@@ -86,10 +87,10 @@
 
 /* Services */
 .services {
-  margin-top: 70px;
+  background-image: linear-gradient(to bottom right, rgb(91, 91, 91), black);
   display: flex;
   gap: 40px;
-  padding: 0 2% 0 4%;
+  padding: 80px 2% 80px 4%;
 }
 
 .company-info {
