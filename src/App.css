@@ -116,6 +116,10 @@
   height: 230px;
 }
 
+.mobile-accordion {
+  display: none;
+}
+
 .our-services {
   flex: 2;
 }
@@ -197,5 +201,22 @@
 
   .company-info > img {
     height: 100px;
+  }
+
+  .our-services {
+    display: none;
+  }
+
+  .mobile-accordion {
+    display: block;
+  }
+
+  .mobile-accordion h2 {
+    color: rgb(200, 200, 200);
+    margin: 10px 0 15px 0;
+  }
+
+  .company-info img {
+    display: none;
   }
 }

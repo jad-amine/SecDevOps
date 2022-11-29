@@ -1,33 +1,26 @@
 import React from "react";
 import Service from "./Service";
 import logo from "../../assets/navbar/logo.png";
-import Breach from "../../assets/LandingPage/ServicesIcons/Breach.svg";
-import Penetration from "../../assets/LandingPage/ServicesIcons/Penetration.svg";
-import PURPLE from "../../assets/LandingPage/ServicesIcons/PURPLE.svg";
-import RANSOMWARE from "../../assets/LandingPage/ServicesIcons/RANSOMWARE.svg";
 import RED from "../../assets/LandingPage/ServicesIcons/RED.svg";
+import Breach from "../../assets/LandingPage/ServicesIcons/Breach.svg";
+import PURPLE from "../../assets/LandingPage/ServicesIcons/PURPLE.svg";
 import WebApp from "../../assets/LandingPage/ServicesIcons/WebApp.svg";
+import RANSOMWARE from "../../assets/LandingPage/ServicesIcons/RANSOMWARE.svg";
+import Penetration from "../../assets/LandingPage/ServicesIcons/Penetration.svg";
+import MobileAccordion from "./MobileAccordion ";
 
 export default function Services() {
   return (
     <div className="services">
       <div className="company-info">
-        <p
-          style={{
-            paddingLeft: 68,
-            paddingRight: 68,
-            marginBottom: 25,
-            fontSize: "1.7em",
-            lineHeight: 1.7,
-            color: "rgb(200,200,200)",
-          }}
-        >
+        <p>
           <span style={{ color: "#F42240" }}>Fight 4 Security</span> is an
           information security company that prioritizes what matters most to
           your organization.
         </p>
-        <img src={logo} height={230} alt={"Fight 4 Security"} />
+        <img src={logo} alt={"Fight 4 Security"} />
       </div>
+      <MobileAccordion />
       <div className="our-services">
         <p
           style={{
