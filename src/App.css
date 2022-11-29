@@ -134,6 +134,12 @@
 
 .testimonial-text {
   border: 2px solid #3266cb;
+  background-color: #f42240;
+  width: 50%;
+  margin-left: -28px;
+  color: white;
+  padding: 60px 30px;
+  border-radius: 10px;
 }
 
 /* Steps */
@@ -141,6 +147,12 @@
   padding-top: 50px;
   padding-bottom: 60px;
   width: 100%;
+}
+
+.steps h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 80;
 }
 
 .three-steps {
@@ -158,6 +170,12 @@
   text-align: center;
   padding: 25px 10px 25px 10px;
   font-size: 1.5em;
+}
+
+.step h4 {
+  color: #3266cb;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .check-button {
@@ -181,7 +199,7 @@
   /* Services */
   .services {
     display: block;
-    padding-top: 2%;
+    padding-top: 5%;
   }
 
   .company-info {
@@ -216,7 +234,45 @@
     margin: 10px 0 15px 0;
   }
 
-  .company-info img {
+  /* Testimonials */
+  .testimonial img {
     display: none;
+  }
+
+  .testimonial-text {
+    width: 80%;
+    margin-left: 0;
+    padding: 7% 7%;
+  }
+
+  /* Steps */
+  .steps {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .steps h1 {
+    font-size: 0.8em;
+    margin-bottom: 30px;
+  }
+
+  .three-steps {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .step {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    font-size: 1em;
+  }
+
+  .step h4 {
+    color: #3266cb;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }

@@ -22,7 +22,7 @@ export default function Steps() {
 
   return (
     <div className="steps">
-      <h1 style={{ color: "white", textAlign: "center", marginBottom: 80 }}>
+      <h1>
         DON’T WAIT TO BE ATTACKED <p>PREVENTION STARTS NOW !!</p>
       </h1>
       <div className="three-steps">
