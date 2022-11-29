@@ -24,14 +24,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 25%;
+  height: 22%;
   width: 100%;
   padding: 0 3%;
   position: fixed;
   z-index: 1;
   background-color: transparent;
   transition: background-color 0.7s, height 0.7s, font-size 0.7s;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 .background {
@@ -80,6 +80,7 @@
   padding-top: 10%;
   justify-content: center;
   align-items: center;
+  min-height: 600px;
 }
 .contact-us {
   font-family: "Montserrat", sans-serif;
@@ -100,6 +101,19 @@
   padding: 5% 0 2% 0;
   color: rgb(84, 84, 84);
   max-width: 450px;
+}
+
+.company-info > p {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  line-height: 1.7em;
+  color: rgb(200, 200, 200);
+}
+
+.company-info > img {
+  height: 230px;
 }
 
 .our-services {
@@ -151,4 +165,37 @@
   font-weight: bolder;
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+/* Media query */
+@media (width <= 1024px) {
+  /* Navbar */
+  .nav ul {
+    display: none;
+  }
+
+  /* Services */
+  .services {
+    display: block;
+    padding-top: 2%;
+  }
+
+  .company-info {
+    border: 0;
+    padding-top: 0;
+    max-width: 1000px;
+  }
+
+  .company-info > p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 1em;
+    /* line-height: 1em; */
+    color: rgb(200, 200, 200);
+  }
+
+  .company-info > img {
+    height: 100px;
+  }
 }
