@@ -240,7 +240,7 @@
     padding-bottom: 15%;
     justify-content: center;
     align-items: center;
-    min-height: 0;
+    min-height: 400px;
   }
 
   .landingPage strong {
@@ -261,7 +261,7 @@
   /* Services */
   .services {
     display: block;
-    padding-top: 5%;
+    padding-top: 10%;
   }
 
   .company-info {
@@ -274,7 +274,7 @@
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
     /* line-height: 1em; */
     color: rgb(200, 200, 200);
   }
