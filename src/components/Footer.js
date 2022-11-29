@@ -6,17 +6,13 @@ import { AiFillYoutube } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <div
-      style={{
-        height: 70,
-        backgroundColor: "#3266CB",
-        display: "flex",
-        justifyContent: "space-around",
-        alignItems: "center",
-        // fontSize: ".9em",
-      }}
-    >
-      <p style={{ color: "white" }}>
+    <div className="footer">
+      <p
+        style={{
+          color: "white",
+          textAlign: "center",
+        }}
+      >
         © Copyright 2022 Fight4Security. All rights reserved.
       </p>
       <p>
@@ -28,7 +24,7 @@ export default function Footer() {
             gap: 15,
           }}
         >
-          <li>About Fight4Security</li>
+          <li>About Us</li>
           <li>Feedback</li>
           <li>Contact us </li>
         </ul>

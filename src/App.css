@@ -82,8 +82,25 @@
   align-items: center;
   min-height: 600px;
 }
+
+.landingPage strong {
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+}
+
 .contact-us {
   font-family: "Montserrat", sans-serif;
+  background: #f42240;
+  padding: 15px 40px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 8%;
+  font-size: 1.5em;
+  border-width: 0;
+  font-weight: bold;
+  /* letterSpacing: 1; */
+  cursor: pointer;
 }
 
 /* Services */
@@ -178,6 +195,11 @@
   margin-bottom: 25px;
 }
 
+.step h5 {
+  width: 80%;
+  margin: auto;
+}
+
 .check-button {
   background-color: #3266cb;
   border-radius: 20px;
@@ -189,11 +211,51 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/* Footer */
+.footer {
+  height: 70px;
+  background-color: #3266cb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* Media query */
 @media (width <= 1024px) {
   /* Navbar */
+  .nav {
+    font-size: 1.2em;
+  }
+
   .nav ul {
     display: none;
+  }
+
+  /* Landing Page */
+
+  .landingPage {
+    background-image: linear-gradient(to bottom right, rgb(91, 91, 91), black);
+    display: flex;
+    padding-top: 40%;
+    padding-bottom: 15%;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+  }
+
+  .landingPage strong {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #ring {
+    display: none;
+  }
+
+  .contact-us {
+    padding: 7px 20px;
+    font-size: 1em;
   }
 
   /* Services */
@@ -243,6 +305,7 @@
     width: 80%;
     margin-left: 0;
     padding: 7% 7%;
+    font-size: 0.9em;
   }
 
   /* Steps */
@@ -252,7 +315,7 @@
   }
 
   .steps h1 {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-bottom: 30px;
   }
 
@@ -264,7 +327,7 @@
   .step {
     background-color: white;
     border-radius: 10px;
-    width: 80%;
+    width: 70%;
     text-align: center;
     padding: 15px 10px 15px 10px;
     font-size: 1em;
@@ -274,5 +337,36 @@
     color: #3266cb;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .step h5 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .check-button {
+    background-color: #3266cb;
+    border-radius: 8px;
+    padding: 6px 25px 6px 25px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* Footer */
+  .footer {
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    font-size: 0.8em;
+  }
+
+  .footer ul {
+    flex-wrap: nowrap;
   }
 }
