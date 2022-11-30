@@ -4,9 +4,12 @@ import Ring from "../../assets/LandingPage/ring.svg";
 
 export default function Home() {
   // const dimensions = useWindowDimensions();
+  // console.log(window.innerHeight);
+
+  const height = window.innerHeight;
 
   return (
-    <div className="landingPage">
+    <div className="landingPage" style={{ height: height }}>
       <div
         style={{
           display: "flex",

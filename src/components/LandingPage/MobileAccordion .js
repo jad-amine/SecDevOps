@@ -135,13 +135,13 @@ export default function MobileAccordion() {
           backgroundColor: "rgba(100,100,100,0.5)",
           color: "rgb(200,200,200)",
         }}
-        expanded={expanded === "panel4"}
-        onChange={handleChange("panel4")}
+        expanded={expanded === "panel5"}
+        onChange={handleChange("panel5")}
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel4bh-content"
-          id="panel4bh-header"
+          aria-controls="panel5bh-content"
+          id="panel5bh-header"
         >
           <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 13 }}>
             WEB APPLICATION PENETRATION TESTING
@@ -162,13 +162,13 @@ export default function MobileAccordion() {
           backgroundColor: "rgba(100,100,100,0.5)",
           color: "rgb(200,200,200)",
         }}
-        expanded={expanded === "panel4"}
-        onChange={handleChange("panel4")}
+        expanded={expanded === "panel6"}
+        onChange={handleChange("panel6")}
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel4bh-content"
-          id="panel4bh-header"
+          aria-controls="panel6bh-content"
+          id="panel6bh-header"
         >
           <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 13 }}>
             PURPLE TEAM

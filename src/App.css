@@ -252,7 +252,7 @@
     padding-bottom: 15%;
     justify-content: center;
     align-items: center;
-    min-height: 658px;
+    /* min-height: 658px; */
   }
 
   .landingPage strong {
