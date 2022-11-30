@@ -22,7 +22,7 @@ export default function Navbar() {
     <div className={background ? "nav background" : "nav"}>
       {/* === Logo & Title */}
       <div className="logo-div">
-        <img src={logo} alt="logo" style={{ height: "80%" }} />
+        <img src={logo} alt="logo" />
         <p className="logo-title">
           <span style={{ color: "#F42240" }}> FIGHT</span> 4 SECURITY
         </p>
