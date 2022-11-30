@@ -13,7 +13,7 @@ export default function Navbar() {
   useEffect(() => {
     // Change navbar background on scroll
     const changeBackground = () => {
-      window.scrollY >= 100 ? setBackground(true) : setBackground(false);
+      window.scrollY >= 60 ? setBackground(true) : setBackground(false);
     };
     window.addEventListener("scroll", changeBackground);
   }, []);

@@ -231,14 +231,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 100px;
     width: 100%;
     padding: 0 3%;
     position: fixed;
     z-index: 1;
     background-color: transparent;
     transition: background-color 0.7s, height 0.7s, font-size 0.7s;
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 
   .background {
@@ -266,12 +266,11 @@
   .landingPage {
     background-image: linear-gradient(to bottom right, rgb(91, 91, 91), black);
     display: flex;
-    padding-top: 40%;
-    padding-bottom: 15%;
+    padding-top: 30%;
+    padding-bottom: 20%;
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    /* min-height: 658px; */
   }
 
   .landingPage strong {
@@ -280,9 +279,9 @@
     text-align: center;
   }
 
-  #ring {
-    height: 60%;
-  }
+  /* #ring {
+    height: 50%;
+  } */
 
   .contact-us {
     padding: 7px 20px;
