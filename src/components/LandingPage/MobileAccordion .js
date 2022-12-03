@@ -30,7 +30,7 @@ export default function MobileAccordion() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: "100%", flexShrink: 0, fontSize: 13 }}>
+          <Typography sx={{ width: "100%", flexShrink: 0, fontSize: 14 }}>
             ASSUMED BREACH ASSESSMENT
           </Typography>
           {/* <Typography sx={{ color: "text.secondary" }}>
@@ -59,7 +59,7 @@ export default function MobileAccordion() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 13 }}>
+          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 14 }}>
             PENETRATION TESTING
           </Typography>
           {/* <Typography sx={{ color: "text.secondary" }}>
@@ -88,7 +88,7 @@ export default function MobileAccordion() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: "100%", flexShrink: 0, fontSize: 13 }}>
+          <Typography sx={{ width: "100%", flexShrink: 0, fontSize: 14 }}>
             RED TEAM & ADVERSARY EMULATION
           </Typography>
           {/* <Typography sx={{ color: "text.secondary" }}>
@@ -117,7 +117,7 @@ export default function MobileAccordion() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 13 }}>
+          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 14 }}>
             RANSOMWARE READINESS ASSESSMENT
           </Typography>
         </AccordionSummary>
@@ -143,7 +143,7 @@ export default function MobileAccordion() {
           aria-controls="panel5bh-content"
           id="panel5bh-header"
         >
-          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 13 }}>
+          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 14 }}>
             WEB APPLICATION PENETRATION TESTING
           </Typography>
         </AccordionSummary>
@@ -170,7 +170,7 @@ export default function MobileAccordion() {
           aria-controls="panel6bh-content"
           id="panel6bh-header"
         >
-          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 13 }}>
+          <Typography sx={{ width: "80%", flexShrink: 0, fontSize: 14 }}>
             PURPLE TEAM
           </Typography>
         </AccordionSummary>
