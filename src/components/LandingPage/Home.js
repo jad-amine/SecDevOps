@@ -1,4 +1,3 @@
-import { Alert } from "@mui/material";
 import React from "react";
 import Ring from "../../assets/LandingPage/ring.svg";
 // import useWindowDimensions from "../../utils/helper";

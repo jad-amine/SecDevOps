@@ -26,8 +26,8 @@ export default function Steps() {
         DON’T WAIT TO BE ATTACKED <p>PREVENTION STARTS NOW !!</p>
       </h1>
       <div className="three-steps">
-        {steps.map((step) => (
-          <Step step={step} />
+        {steps.map((step, i) => (
+          <Step step={step} key={i} />
         ))}
       </div>
     </div>
