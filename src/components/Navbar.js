@@ -30,7 +30,7 @@ export default function Navbar({ showBurgerMenu, setShowBurgerMenu }) {
         </p>
       </div>
 
-      {/* === Top right pages */}
+      {/* === Top right menu === */}
       <ul className="nav-ul">
         <li>
           <img src={Face} alt="logo" className="nav-img" />

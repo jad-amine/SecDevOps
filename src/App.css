@@ -261,11 +261,10 @@
     font-size: 0.9em;
   }
 
-  /* 
   .logo-div {
-    font-size: 0.8em;
+    width: 80%;
   }
-*/
+
   .logo-div > img {
     height: 70%;
   }
