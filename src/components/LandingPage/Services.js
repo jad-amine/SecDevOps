@@ -7,7 +7,7 @@ import PURPLE from "../../assets/LandingPage/ServicesIcons/PURPLE.svg";
 import WebApp from "../../assets/LandingPage/ServicesIcons/WebApp.svg";
 import RANSOMWARE from "../../assets/LandingPage/ServicesIcons/RANSOMWARE.svg";
 import Penetration from "../../assets/LandingPage/ServicesIcons/Penetration.svg";
-import MobileAccordion from "./MobileAccordion ";
+import MobileAccordion from "./Mobile/MobileAccordion";
 
 export default function Services() {
   return (

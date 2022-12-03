@@ -1,3 +1,4 @@
+import { Alert } from "@mui/material";
 import React from "react";
 import Ring from "../../assets/LandingPage/ring.svg";
 // import useWindowDimensions from "../../utils/helper";
@@ -24,7 +25,14 @@ export default function Home() {
         <strong>
           We work to close your <p> security gaps</p>
         </strong>
-        <button className="contact-us">Contact Us</button>
+        <button
+          className="contact-us"
+          onClick={() => {
+            window.alert("Thank you for contacting us !");
+          }}
+        >
+          Contact Us
+        </button>
       </div>
       <div id="ring" style={{ flex: 1 }}>
         <img src={Ring} alt="ring" style={{ width: "100%", height: "100%" }} />
