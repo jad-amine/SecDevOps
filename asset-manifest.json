@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SecDevOps/static/css/main.88c482c5.css",
-    "main.js": "/SecDevOps/static/js/main.a0cc805d.js",
+    "main.css": "/SecDevOps/static/css/main.d0f2e014.css",
+    "main.js": "/SecDevOps/static/js/main.df61ebe0.js",
     "static/js/787.1e16600f.chunk.js": "/SecDevOps/static/js/787.1e16600f.chunk.js",
     "static/media/ring.svg": "/SecDevOps/static/media/ring.35265b24459f94751f80a9e6fec05bc8.svg",
     "static/media/logo.png": "/SecDevOps/static/media/logo.691004f8597fc6f07214.png",
@@ -17,12 +17,12 @@
     "static/media/Phone.svg": "/SecDevOps/static/media/Phone.1e93024b948a3cafd384132317e90bb4.svg",
     "static/media/User.svg": "/SecDevOps/static/media/User.8e2247b16759355bd9a20b0e6f0001ef.svg",
     "index.html": "/SecDevOps/index.html",
-    "main.88c482c5.css.map": "/SecDevOps/static/css/main.88c482c5.css.map",
-    "main.a0cc805d.js.map": "/SecDevOps/static/js/main.a0cc805d.js.map",
+    "main.d0f2e014.css.map": "/SecDevOps/static/css/main.d0f2e014.css.map",
+    "main.df61ebe0.js.map": "/SecDevOps/static/js/main.df61ebe0.js.map",
     "787.1e16600f.chunk.js.map": "/SecDevOps/static/js/787.1e16600f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88c482c5.css",
-    "static/js/main.a0cc805d.js"
+    "static/css/main.d0f2e014.css",
+    "static/js/main.df61ebe0.js"
   ]
 }
