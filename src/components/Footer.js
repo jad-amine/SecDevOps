@@ -15,44 +15,40 @@ export default function Footer() {
       >
         © Copyright 2022 Fight4Security. All rights reserved.
       </p>
-      <p>
-        <ul
-          style={{
-            display: "flex",
-            color: "white",
-            listStyle: "none",
-            gap: 15,
-          }}
-        >
-          <li>About Us</li>
-          <li>Feedback</li>
-          <li>Contact us </li>
-        </ul>
-      </p>
-      <p>
-        <ul
-          style={{
-            display: "flex",
-            color: "white",
-            listStyle: "none",
-            gap: 15,
-            alignItems: "center",
-          }}
-        >
-          <li>
-            <FaDiscord size={25} />
-          </li>
-          <li>
-            <BsLinkedin size={20} />
-          </li>
-          <li>
-            <RiInstagramFill size={25} />
-          </li>
-          <li>
-            <AiFillYoutube size={25} />
-          </li>
-        </ul>
-      </p>
+      <ul
+        style={{
+          display: "flex",
+          color: "white",
+          listStyle: "none",
+          gap: 15,
+        }}
+      >
+        <li>About Us</li>
+        <li>Feedback</li>
+        <li>Contact us </li>
+      </ul>
+      <ul
+        style={{
+          display: "flex",
+          color: "white",
+          listStyle: "none",
+          gap: 15,
+          alignItems: "center",
+        }}
+      >
+        <li>
+          <FaDiscord size={25} />
+        </li>
+        <li>
+          <BsLinkedin size={20} />
+        </li>
+        <li>
+          <RiInstagramFill size={25} />
+        </li>
+        <li>
+          <AiFillYoutube size={25} />
+        </li>
+      </ul>
     </div>
   );
 }
