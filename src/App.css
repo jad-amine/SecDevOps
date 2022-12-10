@@ -57,7 +57,7 @@
   font-weight: bold;
 }
 
-.nav ul {
+.nav > ul {
   font-size: 0.7em;
   display: flex;
   gap: 25px;
@@ -65,7 +65,28 @@
   color: white;
 }
 
-.nav ul li {
+.navbar-services li {
+  padding: 12px 0;
+  list-style: none;
+  text-align: center;
+
+  border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+.navbar-services li:hover {
+  background-color: #be1730;
+}
+
+.navbar-services li:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.navbar-services li:last-child {
+  border-radius: 0px 0px 10px 10px;
+  border: none;
+}
+
+.nav > ul > li {
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
   display: flex;
@@ -257,7 +278,7 @@
   .background {
     transition: all 0.7s;
     background-color: rgba(35, 35, 35, 0.9);
-    height: 60px;
+    height: 70px;
     /* font-size: 0.9em; */
   }
 

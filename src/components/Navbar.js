@@ -6,11 +6,14 @@ import Phone from "../assets/navbar/Phone.svg";
 import { BiMenu } from "react-icons/bi";
 import Face from "../assets/navbar/joker-face.svg";
 import BurgerMenu from "./LandingPage/Mobile/BurgerMenu";
+import ServicesMenu from "./ServicesMenu";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const logo = require("../assets/navbar/logo.png");
 
 export default function Navbar({ showBurgerMenu, setShowBurgerMenu }) {
   const [background, setBackground] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     // Change navbar background on scroll
@@ -34,7 +37,21 @@ export default function Navbar({ showBurgerMenu, setShowBurgerMenu }) {
       <ul className="nav-ul">
         <li>
           <img src={Face} alt="logo" className="nav-img" />
-          Services
+          <div
+            style={{
+              position: "relative",
+              display: "flex",
+              gap: background ? 6 : 8,
+              alignItems: "center",
+            }}
+            onClick={() => {
+              setShowMenu(!showMenu);
+            }}
+          >
+            Services
+            <ServicesMenu showMenu={showMenu} background={background} />
+            {showMenu ? <IoIosArrowUp /> : <IoIosArrowDown />}
+          </div>
         </li>
         <li>
           <img src={User} alt="logo" className="nav-img" />
