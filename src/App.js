@@ -1,5 +1,10 @@
-import { useState } from "react";
+// Utilities
 import "./App.css";
+import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// Components
+import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import LandingPage from "./pages/LandingPage";
@@ -28,19 +33,24 @@ function App() {
       isLeftSwipe ? setShowBurgerMenu(true) : setShowBurgerMenu(false);
   };
   return (
-    <div
-      onTouchStart={onTouchStart}
-      onTouchMove={onTouchMove}
-      onTouchEnd={onTouchEnd}
-      className="App"
-    >
-      <Navbar
-        showBurgerMenu={showBurgerMenu}
-        setShowBurgerMenu={setShowBurgerMenu}
-      />
-      <LandingPage />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
+        className="App"
+      >
+        <Navbar
+          showBurgerMenu={showBurgerMenu}
+          setShowBurgerMenu={setShowBurgerMenu}
+        />
+        <Routes>
+          <Route path="/SecDevOps" element={<LandingPage />} />
+          <Route path="/about-us" element={<AboutUs />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
