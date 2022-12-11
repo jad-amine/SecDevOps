@@ -7,7 +7,7 @@ export default function ServicesMenu({ showMenu, background }) {
         display: showMenu ? "flex" : "none",
         position: "absolute",
         top: background ? 30 : 40,
-        left: background ? 5 : 10,
+        // left: background ? 5 : 0,
         backgroundColor: "#f42240",
         width: background ? 160 : 200,
         flexDirection: "column",
