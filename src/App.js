@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import LandingPage from "./pages/LandingPage";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   const [showBurgerMenu, setShowBurgerMenu] = useState(false);
@@ -47,6 +48,7 @@ function App() {
         <Routes>
           <Route path="/SecDevOps" element={<LandingPage />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>

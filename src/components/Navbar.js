@@ -77,11 +77,18 @@ export default function Navbar({ showBurgerMenu, setShowBurgerMenu }) {
         </li>
         <li>
           <img src={Phone} alt="logo" className="nav-img" />
-          Contact Us
+          <NavLink
+            to={"contact-us"}
+            className={({ isActive }) =>
+              isActive ? "link activeLink" : "link"
+            }
+          >
+            Contact Us
+          </NavLink>
         </li>
       </ul>
 
-      {/* --- Burger Menu --- */}
+      {/* --- Mobile Burger Menu --- */}
       <BiMenu
         className="burger-icon-open"
         size={27}
