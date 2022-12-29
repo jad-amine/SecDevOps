@@ -6,7 +6,7 @@ export default function ServicesMenu({ showMenu, background }) {
       style={{
         display: showMenu ? "flex" : "none",
         position: "absolute",
-        top: background ? 30 : 40,
+        top: background ? 20 : 30,
         // left: background ? 5 : 0,
         backgroundColor: "#f42240",
         width: background ? 160 : 200,

@@ -11,7 +11,7 @@ export default function OurStory() {
           textAlign: "center",
           width: "60%",
           margin: "auto",
-          marginTop: 100,
+          marginTop: 90,
           color: "white",
         }}
       >

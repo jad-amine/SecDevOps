@@ -49,6 +49,12 @@ export default function Navbar({ showBurgerMenu, setShowBurgerMenu }) {
           onClick={() => {
             setShowMenu(!showMenu);
           }}
+          onMouseEnter={() => {
+            setShowMenu(true);
+          }}
+          onMouseLeave={() => {
+            setShowMenu(false);
+          }}
         >
           <img src={Face} alt="logo" className="nav-img" />
           <div
