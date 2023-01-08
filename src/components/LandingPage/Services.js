@@ -11,7 +11,7 @@ import MobileAccordion from "./Mobile/MobileAccordion";
 
 export default function Services() {
   return (
-    <div className="services">
+    <div className="services" id="red">
       {/* <div className="company-info">
         <p>
           <span style={{ color: "#F42240" }}>Fight 4 Security</span> is an
@@ -34,8 +34,8 @@ export default function Services() {
         </p>
 
         {/* ----------- Red Team ---------- */}
-        <div></div>
         <Service
+          id={"blue"}
           color={"red"}
           icon1={Breach}
           icon2={WebApp}
@@ -76,6 +76,7 @@ export default function Services() {
 
         {/* ----------- Blue Team ---------- */}
         <Service
+          id={"purple"}
           color={"blue"}
           icon1={PURPLE}
           icon2={PURPLE}

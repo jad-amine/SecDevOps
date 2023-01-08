@@ -87,13 +87,18 @@
   background-color: #be1730;
 }
 
-.navbar-services li:first-child {
+.hashLink {
+  text-decoration: none;
+  color: white;
+  font-family: inherit;
+}
+
+#red-team {
   border-radius: 10px 10px 0px 0px;
 }
 
-.navbar-services li:last-child {
+#purple-team {
   border-radius: 0px 0px 10px 10px;
-  border: none;
 }
 
 .nav > ul > li {
@@ -156,7 +161,7 @@
   background-image: linear-gradient(to bottom right, rgb(91, 91, 91), black);
   display: flex;
   gap: 40px;
-  padding: 80px 2% 80px 4%;
+  padding: 100px 2% 80px 4%;
 }
 
 .company-info {

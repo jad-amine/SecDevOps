@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 
 export default function ServicesMenu({ showMenu, background }) {
   return (
@@ -16,9 +17,15 @@ export default function ServicesMenu({ showMenu, background }) {
       }}
       className="navbar-services"
     >
-      <li onClick={() => console.log("hello")}>Red Team</li>
-      <li>Blue Team</li>
-      <li>Purple Team</li>
+      <HashLink className="hashLink" smooth to="SecDevOps#red">
+        <li id="red-team">Red Team</li>
+      </HashLink>
+      <HashLink className="hashLink" smooth to="SecDevOps#blue">
+        <li>Blue Team</li>
+      </HashLink>
+      <HashLink className="hashLink" smooth to="SecDevOps#purple">
+        <li id="purple-team">Purple Team</li>
+      </HashLink>
     </ul>
   );
 }

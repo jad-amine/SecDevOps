@@ -9,6 +9,7 @@ import BurgerMenu from "./LandingPage/Mobile/BurgerMenu";
 import ServicesMenu from "./ServicesMenu";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { NavLink, useNavigate } from "react-router-dom";
+// import { HashLink } from "react-router-hash-link";
 
 const logo = require("../assets/navbar/logo.png");
 
@@ -45,6 +46,17 @@ export default function Navbar({ showBurgerMenu, setShowBurgerMenu }) {
 
       {/* === Top right menu === */}
       <ul className="nav-ul">
+        <li>
+          {/* <img src={User} alt="logo" className="nav-img" /> */}
+          <NavLink
+            to={"/SecDevOps"}
+            className={({ isActive }) =>
+              isActive ? "link activeLink" : "link"
+            }
+          >
+            Home
+          </NavLink>
+        </li>
         <li
           onClick={() => {
             setShowMenu(!showMenu);
