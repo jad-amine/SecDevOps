@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SecDevOps/static/css/main.71ce7cda.css",
-    "main.js": "/SecDevOps/static/js/main.a21628cf.js",
+    "main.js": "/SecDevOps/static/js/main.ee34a046.js",
     "static/js/787.1e16600f.chunk.js": "/SecDevOps/static/js/787.1e16600f.chunk.js",
     "static/media/wipfli.gif": "/SecDevOps/static/media/wipfli.a886e39545667759b43c.gif",
     "static/media/ring.svg": "/SecDevOps/static/media/ring.35265b24459f94751f80a9e6fec05bc8.svg",
@@ -17,11 +17,11 @@
     "static/media/User.svg": "/SecDevOps/static/media/User.8e2247b16759355bd9a20b0e6f0001ef.svg",
     "index.html": "/SecDevOps/index.html",
     "main.71ce7cda.css.map": "/SecDevOps/static/css/main.71ce7cda.css.map",
-    "main.a21628cf.js.map": "/SecDevOps/static/js/main.a21628cf.js.map",
+    "main.ee34a046.js.map": "/SecDevOps/static/js/main.ee34a046.js.map",
     "787.1e16600f.chunk.js.map": "/SecDevOps/static/js/787.1e16600f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71ce7cda.css",
-    "static/js/main.a21628cf.js"
+    "static/js/main.ee34a046.js"
   ]
 }
