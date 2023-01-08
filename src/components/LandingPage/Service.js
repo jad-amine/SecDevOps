@@ -23,7 +23,7 @@ export default function Service(props) {
       <div
         style={{ display: "flex", flex: 1, gap: 20, color: "rgb(84, 84, 84)" }}
       >
-        <img src={props.icon2} height={70} alt="icons" />
+        {props.icon2 && <img src={props.icon2} height={70} alt="icons" />}
         <div>
           <h4
             style={{

@@ -1,10 +1,10 @@
 import React from "react";
-import User from "../../assets/LandingPage/Testimonial/testimonial-img.svg";
+// import User from "../../assets/LandingPage/Testimonial/testimonial-img.svg";
 
 export default function Testimonial() {
   return (
     <div className="testimonial">
-      <img src={User} alt="" style={{ marginRight: -28 }} />
+      {/* <img src={User} alt="" style={{ marginRight: -28 }} /> */}
       <div className="testimonial-text">
         <p>
           “ Fight 4 Security is the real deal penetration testing firm. You
